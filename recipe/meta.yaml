@@ -1,4 +1,4 @@
-{% set version = '0.1.1' %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ellmer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ellmer/ellmer_{{ version }}.tar.gz
-  sha256: 2a9ea5538572cf6a5dfe5ba7cacda709bb236777d9b69713f222928fdaea07fb
+  sha256: 764e7f01f926a41c3c17fe1778010a737bb6d6d30514021acc77d832085fc388
 
 build:
   number: 0
@@ -61,9 +61,7 @@ test:
 about:
   home: https://ellmer.tidyverse.org, https://github.com/tidyverse/ellmer
   license: MIT
-  summary: Chat with large language models from a range of providers including 'Claude' <https://claude.ai>,
-    'OpenAI' <https://chatgpt.com>, and more. Supports streaming, asynchronous calls,
-    tool calling, and structured data extraction.
+  summary: Chat with large language models from a range of providers including 'Claude' <https://claude.ai>, 'OpenAI' <https://chatgpt.com>, and more. Supports streaming, asynchronous calls, tool calling, and structured data extraction.
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
