@@ -33,7 +33,7 @@ requirements:
     - r-cli
     - r-coro >=1.1.0
     - r-glue
-    - r-httr2 >=1.1.0
+    - r-httr2 >=1.1.1
     - r-jsonlite
     - r-later >=1.4.0
     - r-lifecycle
@@ -46,7 +46,7 @@ requirements:
     - r-cli
     - r-coro >=1.1.0
     - r-glue
-    - r-httr2 >=1.1.0
+    - r-httr2 >=1.1.1
     - r-jsonlite
     - r-later >=1.4.0
     - r-lifecycle
