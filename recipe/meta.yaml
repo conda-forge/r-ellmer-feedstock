@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ellmer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ellmer/ellmer_{{ version }}.tar.gz
-  sha256: 2e71f0ad0548297ad14b2f0a00d8b3fcbb87eb45e3633abd2a3bbd4363b4582c
+  sha256: d59a6d096e840362f8bc7f7e67cd7df5b8263578efdc8d73f2b70ac5213f2d67
 
 build:
   number: 0
@@ -33,7 +33,7 @@ requirements:
     - r-cli
     - r-coro >=1.1.0
     - r-glue
-    - r-httr2 >=1.1.1
+    - r-httr2 >=1.2.1
     - r-jsonlite
     - r-later >=1.4.0
     - r-lifecycle
@@ -46,7 +46,7 @@ requirements:
     - r-cli
     - r-coro >=1.1.0
     - r-glue
-    - r-httr2 >=1.1.1
+    - r-httr2 >=1.2.1
     - r-jsonlite
     - r-later >=1.4.0
     - r-lifecycle
