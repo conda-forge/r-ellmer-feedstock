@@ -3,21 +3,22 @@ About r-ellmer-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ellmer-feedstock/blob/main/LICENSE.txt)
 
-Home: https://ellmer.tidyverse.org, https://github.com/tidyverse/ellmer
+Home: https://ellmer.tidyverse.org
 
 Package license: MIT
 
 Summary: Chat with large language models from a range of providers including 'Claude' <https://claude.ai>, 'OpenAI' <https://chatgpt.com>, and more. Supports streaming, asynchronous calls, tool calling, and structured data extraction.
 
+Development: https://github.com/tidyverse/ellmer
+
 Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=25401&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ellmer-feedstock?branchName=main">
-      </a>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
     </td>
   </tr>
 </table>
