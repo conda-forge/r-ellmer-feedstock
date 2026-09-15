@@ -1,4 +1,4 @@
-{% set version = "0.4.2" %}
+{% set version = "0.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ellmer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ellmer/ellmer_{{ version }}.tar.gz
-  sha256: 9473e96997b319a28ee9817ab387040bfe7f04ac7ddaa3d63885e055ec6f1337
+  sha256: 1959cc2ed8f03163b2927c091c5be1185023dc83c1d8907314e611236b3fe062
 
 build:
   number: 0
